@@ -65,7 +65,7 @@ body {
     padding-left: 200px;
 }
 
-ul{
+ul {
     padding-right: 50px;
     display: flex;
     font-weight: normal;
@@ -85,7 +85,6 @@ a {
     align-items: center;
     flex-direction: row;
     gap: 40px;
-    padding: 0 40px;
 }
 
 .info .title{
@@ -107,7 +106,7 @@ a {
     height: 150px;
 }
 
-.left {
+.one .left {
     width: 300px;
     height: 250px;
 }
