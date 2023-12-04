@@ -26,14 +26,27 @@ body {
 
 .container.three{
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    color: #1f2937;
+    justify-content: center;
 }
 
 .container.four {
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
     background-color: #1f2937;
+    color: white;
+    margin: 0;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Container one*/
@@ -47,6 +60,8 @@ body {
 }
 
 .header .logo {
+    color: #F9FAF8;
+    font-size: 24px;
     padding-left: 200px;
 }
 
@@ -62,12 +77,15 @@ ul{
 a {
     text-decoration: none;
     color: #E5E7EB;
+    font-size: 18px;
 }
 
-.container .one, .info{
+.one .info{
     display: flex;
     align-items: center;
     flex-direction: row;
+    gap: 40px;
+    padding: 0 40px;
 }
 
 .info .title{
@@ -81,18 +99,31 @@ a {
     font-size: 18px;
 }
 
-button {
-    color: white;
-    background-color: #3882f6;
-}
-
-img{
+#img-one {
+    display: flex;
     color: #E5E7EB;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
 }
 
+.left {
+    width: 300px;
+    height: 250px;
+}
+
+.button {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #3882f6;
+    border: 6px solid #3882f6;
+    padding: 6px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
 /*container two*/
-
 .two .title {
     color: #1f2937;
     font-size: 36px;
@@ -104,4 +135,61 @@ img{
     justify-content: center;
     gap: 52px;
     text-align: center;
+}
+
+.two .info {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-two{
+    color: #E5E7EB;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
+
+.images-text .text {
+    color: #1f2937;
+    width: 150px;
+}
+
+/*container three*/
+.three .text {
+    color: #1f2937;
+    font-size: 36px;
+    padding: 0px 150px;
+}
+
+.three .author {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 160px;
+}
+
+/*container four*/
+.box {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 70px;
+    gap: 200px;
+    border-radius: 10px;
+}
+
+#text-one {
+    font-weight: bold;
+}
+
+.four, .text{
+    color: white;
+    font-size: 20px;
+}
+
+.four .button{
+    border: 2px solid white;
 }
